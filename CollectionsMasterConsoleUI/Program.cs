@@ -136,8 +136,9 @@ namespace CollectionsMasterConsoleUI
                 {
                   numberLists.RemoveAt(i); 
                 }
-                NumberPrinter(numberLists);
+               
             }
+            NumberPrinter(numberLists);
         }
 
         private static void NumberChecker(List<int> numberList, int searchNumber)
